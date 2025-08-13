@@ -980,37 +980,37 @@
                 <h3 style="text-align: center; margin: 3rem 0 2rem; font-size: 2rem;">Our PG Gallery</h3>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="images/img1.jpeg" alt="Single Room">
+                        <img src="Images/img1.jpeg" alt="Single Room">
                         <div class="gallery-overlay">
                             <h4 style="color: white;">Single Room</h4>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="images/img2.jpeg" >
+                        <img src="Images/img2.jpeg" >
                         <div class="gallery-overlay">
                             <h4 style="color: white;">Double Sharing</h4>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="images/img4.jpeg" alt="Triple Sharing Room">
+                        <img src="Images/img4.jpeg" alt="Triple Sharing Room">
                         <div class="gallery-overlay">
                             <h4 style="color: white;">Triple Sharing</h4>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="images/img3.jpeg" alt="Common Area">
+                        <img src="Images/img3.jpeg" alt="Common Area">
                         <div class="gallery-overlay">
                             <h4 style="color: white;">Common Area</h4>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="images/img5.jpeg" alt="Kitchen">
+                        <img src="Images/img5.jpeg" alt="Kitchen">
                         <div class="gallery-overlay">
                             <h4 style="color: white;">Kitchen</h4>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="images/img6.jpeg" alt="Dining Area">
+                        <img src="Images/img6.jpeg" alt="Dining Area">
                         <div class="gallery-overlay">
                             <h4 style="color: white;">Dining Area</h4>
                         </div>
@@ -1711,9 +1711,9 @@
             }
         }
 
-        // Performance optimization for images
+        // Performance optimization for Images
         function lazyLoadImages() {
-            const images = document.querySelectorAll('img[data-src]');
+            const Images = document.querySelectorAll('img[data-src]');
             const imageObserver = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -1725,7 +1725,7 @@
                 });
             });
 
-            images.forEach(img => imageObserver.observe(img));
+            Images.forEach(img => imageObserver.observe(img));
         }
 
         // Initialize lazy loading
@@ -1737,3 +1737,4 @@
     </script>
 </body>
 </html>
+
